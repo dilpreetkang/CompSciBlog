@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+<link rel="stylesheet" href="{{'style.css'}}">
+{% block page_content %}
+
+<div class = "about">
+{% for about in abouts %}
+
+
+{%endfor%}
+</div>
+
+<div class="row">
+<br>
+    <div class="border border-warning">
+         {% for about in abouts %}
+         <h3> {{about.title}} </h3>
+        <p>{{ about.description }}</p>
+          {%endfor%}
+    </div>
+
+    <div class="col-md-6 ">
+       {% load static %}  <img src= "/media/static/cv.png" width="500px">
+
+    </div>
+</div>
+
+{% endblock %}

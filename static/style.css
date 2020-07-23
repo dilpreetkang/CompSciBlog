@@ -1,12 +1,32 @@
-div.sidenav { 
-background-color:#ffb84d;
-  position: absolute;
-  left: 20px;
-  top: 70px;
 
+
+div.sidenav { 
+background:#eda85f;
+border-right-style: solid;
+border-color:#f2f4f5;
+border-width:5px;
+position: fixed;
+left: 0px;
+top: 0px;
+height:100%;
+width:270px;
 }
+
 
 a {
-    color: 	#000000;
+font-family:Charcoal, sans-serif;
+    color:#ffffff;
     text-decoration: none;
 }
+
+p.proj {
+font-family:'Abel';
+font-size: 40px;
+
+}
+
+nav.navbar {
+background-color:#fabb61;
+
+}
+
