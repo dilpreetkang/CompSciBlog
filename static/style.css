@@ -9,7 +9,7 @@ position: fixed;
 left: 0px;
 top: 0px;
 height:100%;
-width:270px;
+width:220px;
 }
 
 
@@ -30,3 +30,7 @@ background-color:#fabb61;
 
 }
 
+div.pp {
+column-width: 600px;
+right:200px
+}
