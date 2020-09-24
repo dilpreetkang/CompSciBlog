@@ -1,14 +1,12 @@
-
-
 div.sidenav { 
 background:#eda85f;
 border-right-style: solid;
 border-color:#f2f4f5;
 border-width:5px;
-position: fixed;
+position: absolute;
 left: 0px;
 top: 0px;
-height:100%;
+height:200%;
 width:220px;
 }
 
@@ -34,3 +32,4 @@ div.pp {
 column-width: 600px;
 right:200px
 }
+
